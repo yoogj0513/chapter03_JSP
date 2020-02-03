@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="joinResult.jsp" method="post">
+		<fieldset>
+			<legend>회원가입</legend>
+			<p>
+				<label>이 름</label>
+				<input type="text" name="name">
+			</p>
+			<p>
+				<label>나 이</label>
+				<input type="text" name="age">
+			</p>
+			<p>
+				<label>성 별</label>
+				<input type="radio" name="gender" value="여자"> 여자 
+				<input type="radio" name="gender" value="남자"> 남자
+			</p>
+			<p>
+				<label>관심 분야</label>
+				<input type="checkbox" name="ch" value="경제"> 경제 
+				<input type="checkbox" name="ch" value="정치"> 정치 
+				<input type="checkbox" name="ch" value="연예"> 연예 
+				<input type="checkbox" name="ch" value="스포츠"> 스포츠 
+				<input type="checkbox" name="ch" value="쇼핑"> 쇼핑 
+			</p>
+			<p>
+				<input type="submit" value="회원 가입">
+				<input type="reset" value="취소">
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>
